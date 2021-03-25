@@ -1,0 +1,21 @@
+main{
+    margin: 2vw;
+}
+
+header{
+    text-align: center;background-color: rgb(176, 243, 236);
+}
+img{
+    width: 10vw;
+    border-radius: 50%;
+}
+#kisisel{
+    display: flex;
+    align-items: center;
+    flex-direction: unset;
+    margin: 2vw;
+}
+
+#table-kisisel{
+margin-left: 20vw;
+}

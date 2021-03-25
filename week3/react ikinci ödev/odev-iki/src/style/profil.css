@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+}
+
+fieldset{
+width: 90vw;
+
+}
+
+img {
+    width: 10vw;
+    min-width: 150px;
+    margin-right: 10vw;
+    margin-left: 2vw;
+    border-radius: 50%;
+}
+
+#kisisel-bilgi{
+    display: flex;
+}
+
+#kisisel-bilgi td{
+    width: 40vw;
+}
+
+#kisisel-bilgi th{
+    width: 20vw;
+}
+
+fieldset span {
+    float: right;
+}
+
+.yazi {
+    margin-top: 70%;
+    box-sizing: border-box;
+    font-size: 130%;
+    text-align: center;
+}
+
+.bilgi {
+    font-size: 150%;
+    display: flex;
+}
+
+
+
+.bilgi table {
+    text-align: center;
+}
+
+
+#oz legend {
+    color: black;
+}
+
+th {
+    background-color: rgb(122, 122, 253);
+    border: rgb(52, 2, 82) solid;
+    border-radius: 5px;
+    color: white;
+}
+
+td {
+    border: lightblue 2px solid;
+    border-radius: 5%;
+}
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background: lightskyblue;
+}
