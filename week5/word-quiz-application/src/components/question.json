@@ -1,0 +1,212 @@
+[
+    {
+        "questionText": "das Auto",
+        "answerOptions": [
+            {
+                "answerText": "Tren",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Otobüs",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Otomobil",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Minibüs",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "der Wald",
+        "answerOptions": [
+            {
+                "answerText": "Orman",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Duvar",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Vadi",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Bina",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "das Sofa",
+        "answerOptions": [
+            {
+                "answerText": "Hali",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sandalye",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Yatak",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kanepe",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "die Zitrone",
+        "answerOptions": [
+            {
+                "answerText": "Elma",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Limon",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Karpuz",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kiraz",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "der Fernseher",
+        "answerOptions": [
+            {
+                "answerText": "Radyo",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Gazete",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Televizyon",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Cep Telefonu",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "die Uhr",
+        "answerOptions": [
+            {
+                "answerText": "Saat",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Defter",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kalem",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kitap",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "der Führerausweis",
+        "answerOptions": [
+            {
+                "answerText": "Oturma izni",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Kimlik Karti",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Okul Diblomasi",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Sürücü Ehliyeti",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "der Mantel",
+        "answerOptions": [
+            {
+                "answerText": "Dantel",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Ceket",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Örgü",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Pantolon",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "das Kissen",
+        "answerOptions": [
+            {
+                "answerText": "Koltuk",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Yorgan",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Yastik",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Para",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "der Vorhang?",
+        "answerOptions": [
+            {
+                "answerText": "Perde",
+                "isCorrect": true
+            },
+            {
+                "answerText": "Masa",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Masa Örtüsü",
+                "isCorrect": false
+            },
+            {
+                "answerText": "Hali",
+                "isCorrect": false
+            }
+        ]
+    }
+]
