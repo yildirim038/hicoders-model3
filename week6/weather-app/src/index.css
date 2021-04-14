@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+.App {
+  background-image: url('./img/cold-bg.jpg');
+  background-size: cover;
+  background-position:center;
+}
+
+.weather-box {
+  text-align: center;
+  height: 100vh;
+}
+
+.weather-box .temp {
+  position: relative;
+  
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  text-align: center;
+  padding: 15px 25px;
+  color: rgb(46, 222, 231);
+  font-size: 50px;
+}
+.weather {
+  color:  rgb(46, 222, 231);;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
