@@ -1,0 +1,164 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.0.1",
+    "title": "Swagger Api Trial",
+    "description": "First Trial"
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "securityDefinitions": {
+    "apiKeyAuth": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "X-API-KEY",
+      "description": "..."
+    }
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/movies/": {
+      "get": {
+        "tags": [],
+        "description": "Get All Movies",
+        "parameters": [],
+        "responses": {}
+      },
+      "post": {
+        "tags": [],
+        "description": "Created New Movie",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        }
+      }
+    },
+    "/movies/{id}": {
+      "get": {
+        "tags": [],
+        "description": "Get Movie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      },
+      "delete": {
+        "tags": [],
+        "description": "Delete Movie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [],
+        "description": "Change Movie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/rents/rent": {
+      "get": {
+        "tags": [],
+        "description": "Get All Rents",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/rents/{id}/rent": {
+      "post": {
+        "tags": [],
+        "description": "Get Rent",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Movie": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "example": 10002
+        },
+        "name": {
+          "type": "string",
+          "example": "Die Hard"
+        },
+        "year": {
+          "type": "number",
+          "example": 1999
+        }
+      }
+    },
+    "Rent": {
+      "type": "object",
+      "properties": {
+        "movieId": {
+          "type": "number",
+          "example": 10002
+        },
+        "name": {
+          "type": "string",
+          "example": "Die Hard"
+        },
+        "duration": {
+          "type": "number",
+          "example": 12
+        },
+        "price": {
+          "type": "number",
+          "example": 6
+        }
+      }
+    }
+  }
+}
