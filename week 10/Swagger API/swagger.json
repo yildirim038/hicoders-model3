@@ -29,13 +29,13 @@
     "/movies/": {
       "get": {
         "tags": [],
-        "description": "Get All Movies",
+        "description": "",
         "parameters": [],
         "responses": {}
       },
       "post": {
         "tags": [],
-        "description": "Created New Movie",
+        "description": "",
         "parameters": [],
         "responses": {
           "201": {
@@ -47,7 +47,7 @@
     "/movies/{id}": {
       "get": {
         "tags": [],
-        "description": "Get Movie",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -60,7 +60,7 @@
       },
       "delete": {
         "tags": [],
-        "description": "Delete Movie",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -77,7 +77,7 @@
       },
       "put": {
         "tags": [],
-        "description": "Change Movie",
+        "description": "",
         "parameters": [
           {
             "name": "id",
@@ -96,7 +96,7 @@
     "/rents/rent": {
       "get": {
         "tags": [],
-        "description": "Get All Rents",
+        "description": "",
         "parameters": [],
         "responses": {}
       }
@@ -104,7 +104,7 @@
     "/rents/{id}/rent": {
       "post": {
         "tags": [],
-        "description": "Get Rent",
+        "description": "",
         "parameters": [
           {
             "name": "id",
