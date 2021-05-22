@@ -27,7 +27,7 @@ db.students.hasMany(db.students);
 
 // .sync({ force: true })
 db.sequelize.sync({ force: true }).then(() => {
-    console.log("Drop and re-sync db.");
+    console.log("Basari ile olusturuldu...");
 });
 
 export default db;
