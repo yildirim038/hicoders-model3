@@ -27,7 +27,15 @@ db.lectures = LectureModel(sequelize, Sequelize);
 db.enrollment = EnrollmentModel(sequelize, Sequelize);
 
 // create relationship
-db.enrollment.hasMany(db.enrollment);
+db.students.belongsToMany(db.teachers,{ through:db.enrollment});
+db.students.belongsToMany(db.lectures,{ through:db.enrollment});
+
+db.teachers.belongsToMany(db.students,{ through:db.enrollment});
+db.teachers.belongsToMany(db.lectures,{ through:db.enrollment});
+
+db.lectures.belongsToMany(db.teachers,{ through:db.enrollment});
+db.lectures.belongsToMany(db.students,{ through:db.enrollment});
+
 
 
 // .sync({ force: true })
