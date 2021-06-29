@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const formReducer = (state, event) => {
- return {
-   ...state,
-   [event.name]: event.value
- }
+  return {
+    ...state,
+    [event.name]: event.value
+  }
 }
 
 export default function Forms(props) {
@@ -26,82 +26,71 @@ export default function Forms(props) {
   }
 
 
-  return(
-  <Form onSubmit={handleSubmit}>
-    <Form.Group>
+  return (
+    <Form onSubmit={handleSubmit}>
+      <Form.Group>
         <Form.Label>
-        First Name
+          First Name
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        name='firstName'
-        type='text'
-        placeholder='firstName' />
-    </Form.Group>
-    <Form.Group>
+          onChange={handleChange}
+          name='firstName'
+          type='text'
+          placeholder='firstName' />
+      </Form.Group>
+      <Form.Group>
         <Form.Label>
-        Last Name
+          Last Name
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        name='lastName'
-        type='text'
-        placeholder='lastName' />
-    </Form.Group>
-    <Form.Group>
+          onChange={handleChange}
+          name='lastName'
+          type='text'
+          placeholder='lastName' />
+      </Form.Group>
+      <Form.Group>
         <Form.Label>
-        Gender
+          amount_of_work
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        type='text'
-        name='gender'
-        placeholder='gender' />
-    </Form.Group>
-    <Form.Group>
+          onChange={handleChange}
+          type='nummer'
+          name='amount_of_work'
+          placeholder='amount_of_work' />
+      </Form.Group>
+      <Form.Group>
         <Form.Label>
-        Birth Day
+          arrival_date
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        type='date'
-        name='birthday'/>
-    </Form.Group>
-    <Form.Group controlId='formBasicEmail'>
+          onChange={handleChange}
+          type='date'
+          name='arrival_date' />
+      </Form.Group>
+      <Form.Group controlId='formBasicEmail'>
         <Form.Label>
-        Email address
+          Email address
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        name='email'
-        type='email'
-        placeholder='email' />
-    </Form.Group>
-    <Form.Group>
+          onChange={handleChange}
+          name='email'
+          type='email'
+          placeholder='email' />
+      </Form.Group>
+      <Form.Group>
         <Form.Label>
-        Password
+          Password
         </Form.Label>
         <Form.Control
-        onChange={handleChange}
-        type='password'
-        name='password'
-        placeholder='password' />
-    </Form.Group>
-    <Form.Group controlId='exampleForm.ControlTextarea1'>
-        <Form.Label>
-        About Me
-        </Form.Label>
-        <Form.Control
-        onChange={handleChange}
-        name='about'
-        as='textarea'
-        rows={3}
-        placeholder='about me' />
-    </Form.Group>
-    <Button variant='primary' type='submit'>
+          onChange={handleChange}
+          type='password'
+          name='password'
+          placeholder='password' />
+      </Form.Group>
+      <Button variant='primary' type='submit'>
         Submit
-    </Button>
-</Form>
+      </Button>
+    </Form>
   )
 }
 
